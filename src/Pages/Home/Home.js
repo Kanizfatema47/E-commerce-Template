@@ -1,16 +1,17 @@
-import React from 'react';
-import Banner from '../../Components/Banner';
-import OfficeFurnitures from '../OfficeCategory/OfficeFurnitures';
-import Categories from '../../Components/Categories';
+import React from "react";
+import Banner from "../../Components/Banner";
+
+import Categories from "../../Components/Categories";
+import OfficeFurnitureCategory from "../../Components/OfficeFurnitureCategory";
 
 const Home = () => {
-    return (
-        <div>
-            <Banner/>
-            <OfficeFurnitures></OfficeFurnitures>
-            <Categories />
-        </div>
-    );
+  return (
+    <div>
+      <Banner />
+      <OfficeFurnitureCategory />
+      <Categories />
+    </div>
+  );
 };
 
 export default Home;

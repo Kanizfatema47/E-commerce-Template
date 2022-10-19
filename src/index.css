@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.formPasswordField{
+    border: none;
+    outline: none;
+    width: 100%;
+    
+}
