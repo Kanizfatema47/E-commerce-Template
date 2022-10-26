@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import AllDoor from './Categories/Door/AllDoor';
 import SubCategory from './Categories/Door/SubCategory';
+import NewCom from './Components/NewCom';
 import Home from './Pages/Home/Home';
 import CategoryList from './Pages/OfficeCategory/CategoryList';
 import Footer from './Shared/Footer/Footer';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Navbar/>
+      <NewCom></NewCom>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
