@@ -9,21 +9,21 @@
     {
         "id": 2,
         "name": "Senior Executive Table ",
-        "category": "sr.executive",
+        "category": "srexecutive",
         "image": "https://i.ibb.co/zbRz7N2/Senior-Executive-Table.jpg"
     },
 
     {
         "id": 3,
         "name": "Side Table ",
-        "category": "side table",
+        "category": "sidetable",
         "image": "https://i.ibb.co/xhj0Rpn/Side-Table.jpg"
     },
 
     {
         "id": 4,
         "name": "Conference Table",
-        "category": "conference table",
+        "category": "conferencetable",
         "image": "https://i.ibb.co/VjR63v2/Conference-Table.jpg"
     },
     {
