@@ -1,16 +1,18 @@
-import React from 'react';
-import Banner from '../../Components/Banner';
-import OfficeFurnitures from '../OfficeCategory/OfficeFurnitures';
-import Categories from '../../Components/Categories';
+import React from "react";
+import Banner from "../../Components/Banner/Banner";
+import OfficeFurnitures from "../OfficeCategory/OfficeFurnitures";
+import Categories from "../../Components/Categories";
+import Chair from "../../Components/Chair";
 
 const Home = () => {
-    return (
-        <div>
-            <Banner/>
-            <OfficeFurnitures></OfficeFurnitures>
-            <Categories />
-        </div>
-    );
+  return (
+    <div>
+      <Banner />
+      <OfficeFurnitures></OfficeFurnitures>
+      <Chair />
+      <Categories />
+    </div>
+  );
 };
 
 export default Home;
