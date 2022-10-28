@@ -1,15 +1,13 @@
 import React from "react";
-import Banner from "../../Components/Banner/Banner";
-import OfficeFurnitures from "../OfficeCategory/OfficeFurnitures";
+import Banner from "../../Components/Banner";
 import Categories from "../../Components/Categories";
-import Chair from "../../Components/Chair";
+import OfficeFurnitures from "../OfficeCategory/OfficeFurniture";
 
 const Home = () => {
   return (
     <div>
       <Banner />
-      <OfficeFurnitures></OfficeFurnitures>
-      <Chair />
+      <OfficeFurnitures />
       <Categories />
     </div>
   );
